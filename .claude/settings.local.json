@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter clean *)",
+      "Bash(flutter pub *)",
+      "WebFetch(domain:pub.dev)",
+      "WebFetch(domain:github.com)",
+      "Bash(flutter analyze *)",
+      "Bash(keytool *)",
+      "Bash(flutter build *)",
+      "Bash(where magick *)",
+      "Bash(where convert *)",
+      "Bash(where python *)",
+      "Bash(pip show *)",
+      "Bash(py --version)",
+      "Bash(dart *)",
+      "Bash(taskkill /F /IM java.exe)",
+      "Bash(taskkill /F /IM gradle.exe)",
+      "Bash(powershell *)",
+      "Bash(where ffmpeg *)",
+      "Bash(where python3 *)",
+      "Bash(where pip *)",
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(taskkill //F //IM gradle.exe)",
+      "Bash(rm -rf __TRACKED_VAR__/.gradle/daemon)",
+      "Bash(rm -rf __TRACKED_VAR__/.gradle/caches)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(flutter build *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-ChildItem \"D:\\\\new_henan_exam\\\\android\\\\app\\\\src\\\\main\\\\res\\\\mipmap-anydpi-v26\" -File -ErrorAction SilentlyContinue | ForEach-Object { $_.Name })",
+      "PowerShell(flutter clean *)"
+    ]
+  }
+}

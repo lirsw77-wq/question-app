@@ -1,0 +1,69 @@
+{
+  "module": "公共基础知识",
+  "chapter": "经济",
+  "questions": [
+    {
+      "content": "市场经济的基本规律是：",
+      "type": "single_choice",
+      "options": ["A. 价值规律", "B. 供求规律", "C. 竞争规律", "D. 剩余价值规律"],
+      "answer": "A",
+      "explanation": "价值规律是市场经济的基本规律，它通过价格围绕价值上下波动来发挥作用。",
+      "difficulty": 2,
+      "knowledge_points": ["市场经济"]
+    },
+    {
+      "content": "GDP是指：",
+      "type": "single_choice",
+      "options": ["A. 国民生产总值", "B. 国内生产总值", "C. 国民收入", "D. 国内净产值"],
+      "answer": "B",
+      "explanation": "GDP即国内生产总值，是指一个国家或地区在一定时期内生产的全部最终产品和服务的市场价值。",
+      "difficulty": 1,
+      "knowledge_points": ["宏观经济指标"]
+    },
+    {
+      "content": "通货膨胀的主要表现是：",
+      "type": "single_choice",
+      "options": ["A. 物价持续上涨", "B. 物价持续下降", "C. 货币供应量减少", "D. 失业率上升"],
+      "answer": "A",
+      "explanation": "通货膨胀是指货币供应量超过实际需求量，导致货币贬值、物价持续上涨的现象。",
+      "difficulty": 2,
+      "knowledge_points": ["通货膨胀"]
+    },
+    {
+      "content": "下列属于扩张性财政政策的是：",
+      "type": "multiple_choice",
+      "options": ["A. 增加政府支出", "B. 减少税收", "C. 增加货币供应", "D. 降低利率"],
+      "answer": "A,B",
+      "explanation": "扩张性财政政策包括增加政府支出和减少税收。增加货币供应和降低利率属于货币政策。",
+      "difficulty": 3,
+      "knowledge_points": ["财政政策"]
+    },
+    {
+      "content": "恩格尔系数越大，说明居民生活水平越高。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "B",
+      "explanation": "恩格尔系数是食品支出占消费总支出的比重。系数越大，说明用于食品的支出比例越高，生活水平越低。",
+      "difficulty": 3,
+      "knowledge_points": ["恩格尔系数"]
+    },
+    {
+      "content": "我国社会主义初级阶段的基本经济制度是：",
+      "type": "single_choice",
+      "options": ["A. 公有制为主体", "B. 公有制为主体、多种所有制经济共同发展", "C. 按劳分配为主体", "D. 社会主义市场经济"],
+      "answer": "B",
+      "explanation": "我国社会主义初级阶段的基本经济制度是公有制为主体、多种所有制经济共同发展。",
+      "difficulty": 2,
+      "knowledge_points": ["基本经济制度"]
+    },
+    {
+      "content": "供给侧结构性改革的主要任务包括：",
+      "type": "multiple_choice",
+      "options": ["A. 去产能", "B. 去库存", "C. 去杠杆", "D. 降成本、补短板"],
+      "answer": "A,B,C,D",
+      "explanation": "供给侧结构性改革的主要任务是\"三去一降一补\"：去产能、去库存、去杠杆、降成本、补短板。",
+      "difficulty": 3,
+      "knowledge_points": ["供给侧改革"]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+name: shangkan_exam
+description: "“上岸事考刷题备考APP，河南事业单位、省考备考必备”"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  fl_chart: ^0.70.2
+  file_picker: ^8.1.7
+  share_plus: ^10.1.4
+  http: ^1.3.0
+  dio: ^5.7.0
+  shared_preferences: ^2.3.5
+  syncfusion_flutter_pdf: ^28.2.5
+  receive_sharing_intent: ^1.4.5
+  permission_handler: ^11.3.0
+  pdfx: ^2.9.2
+  image_picker: ^1.1.2
+  table_calendar: ^3.2.0
+  flutter_tts: ^4.0.2
+  speech_to_text: ^7.0.0
+  intl: ^0.20.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/questions/gongji/
+    - assets/questions/zhice/
+    - assets/questions/shenlun/
+    - assets/icon/

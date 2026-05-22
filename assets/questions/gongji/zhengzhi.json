@@ -1,0 +1,96 @@
+{
+  "module": "公共基础知识",
+  "chapter": "政治",
+  "questions": [
+    {
+      "content": "马克思主义哲学认为，世界的本原是：",
+      "type": "single_choice",
+      "options": ["A. 意识", "B. 物质", "C. 精神", "D. 理念"],
+      "answer": "B",
+      "explanation": "马克思主义哲学是唯物主义哲学，认为世界的本原是物质，物质决定意识。",
+      "difficulty": 2,
+      "knowledge_points": ["唯物论"]
+    },
+    {
+      "content": "唯物辩证法的实质和核心是：",
+      "type": "single_choice",
+      "options": ["A. 质量互变规律", "B. 否定之否定规律", "C. 对立统一规律", "D. 联系和发展的规律"],
+      "answer": "C",
+      "explanation": "对立统一规律是唯物辩证法的实质和核心，它揭示了事物发展的源泉和动力。",
+      "difficulty": 3,
+      "knowledge_points": ["辩证法"]
+    },
+    {
+      "content": "实践是检验真理的唯一标准，这说明：",
+      "type": "single_choice",
+      "options": ["A. 实践是认识的来源", "B. 实践是认识发展的动力", "C. 实践是检验真理的唯一标准", "D. 以上都是"],
+      "answer": "D",
+      "explanation": "实践是认识的来源、发展的动力、检验真理的唯一标准，也是认识的目的。",
+      "difficulty": 2,
+      "knowledge_points": ["认识论"]
+    },
+    {
+      "content": "下列属于量变引起质变的是：",
+      "type": "single_choice",
+      "options": ["A. 在一定温度下水变成蒸汽", "B. 庄稼一枝花，全靠粪当家", "C. 千里之行，始于足下", "D. 城门失火，殃及池鱼"],
+      "answer": "C",
+      "explanation": "\"千里之行，始于足下\"体现了量的积累达到一定程度引起质变的哲学道理。",
+      "difficulty": 3,
+      "knowledge_points": ["质量互变规律"]
+    },
+    {
+      "content": "毛泽东思想活的灵魂的三个基本方面是：",
+      "type": "single_choice",
+      "options": ["A. 实事求是、群众路线、独立自主", "B. 实事求是、解放思想、与时俱进", "C. 群众路线、统一战线、武装斗争", "D. 理论联系实际、密切联系群众、批评与自我批评"],
+      "answer": "A",
+      "explanation": "毛泽东思想活的灵魂是实事求是、群众路线、独立自主三个基本方面。",
+      "difficulty": 3,
+      "knowledge_points": ["毛泽东思想"]
+    },
+    {
+      "content": "中国特色社会主义最本质的特征是：",
+      "type": "single_choice",
+      "options": ["A. 人民当家作主", "B. 中国共产党领导", "C. 公有制为主体", "D. 依法治国"],
+      "answer": "B",
+      "explanation": "中国特色社会主义最本质的特征是中国共产党领导，这是由党的性质和宗旨决定的。",
+      "difficulty": 2,
+      "knowledge_points": ["中国特色社会主义"]
+    },
+    {
+      "content": "新发展理念包括创新、协调、绿色、开放、共享，其中创新是：",
+      "type": "single_choice",
+      "options": ["A. 第一动力", "B. 内在要求", "C. 必要条件", "D. 根本目的"],
+      "answer": "A",
+      "explanation": "创新是引领发展的第一动力，协调是持续健康发展的内在要求，绿色是永续发展的必要条件。",
+      "difficulty": 2,
+      "knowledge_points": ["新发展理念"]
+    },
+    {
+      "content": "矛盾的普遍性和特殊性的关系是：",
+      "type": "multiple_choice",
+      "options": ["A. 共性与个性的关系", "B. 一般与个别的关系", "C. 整体与部分的关系", "D. 绝对与相对的关系"],
+      "answer": "A,B,D",
+      "explanation": "矛盾的普遍性和特殊性是共性与个性、一般与个别、绝对与相对的关系，不是整体与部分的关系。",
+      "difficulty": 4,
+      "knowledge_points": ["矛盾论"]
+    },
+    {
+      "content": "社会主义核心价值观中，属于社会层面的价值取向是：",
+      "type": "multiple_choice",
+      "options": ["A. 自由", "B. 平等", "C. 公正", "D. 法治"],
+      "answer": "A,B,C,D",
+      "explanation": "社会主义核心价值观中，自由、平等、公正、法治是社会层面的价值取向。",
+      "difficulty": 2,
+      "knowledge_points": ["社会主义核心价值观"]
+    },
+    {
+      "content": "马克思主义认为，人类社会发展的根本动力是生产力与生产关系的矛盾运动。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "生产力与生产关系的矛盾运动是人类社会发展的根本动力，这是历史唯物主义的基本原理。",
+      "difficulty": 2,
+      "knowledge_points": ["历史唯物主义"]
+    }
+  ]
+}

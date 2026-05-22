@@ -1,0 +1,60 @@
+{
+  "module": "职业能力测验",
+  "chapter": "数量关系",
+  "questions": [
+    {
+      "content": "某商品原价200元，先涨价20%，再降价20%，现价是多少元？",
+      "type": "single_choice",
+      "options": ["A. 192元", "B. 200元", "C. 208元", "D. 196元"],
+      "answer": "A",
+      "explanation": "200×(1+20%)×(1-20%) = 200×1.2×0.8 = 192元。",
+      "difficulty": 2,
+      "knowledge_points": ["百分比"]
+    },
+    {
+      "content": "甲、乙两人从相距100公里的两地同时出发相向而行，甲每小时走6公里，乙每小时走4公里，几小时后两人相遇？",
+      "type": "single_choice",
+      "options": ["A. 8小时", "B. 10小时", "C. 12小时", "D. 15小时"],
+      "answer": "B",
+      "explanation": "相遇时间 = 距离 ÷ 速度和 = 100 ÷ (6+4) = 10小时。",
+      "difficulty": 2,
+      "knowledge_points": ["行程问题"]
+    },
+    {
+      "content": "一个数除以3余2，除以5余3，除以7余4，这个数最小是多少？",
+      "type": "single_choice",
+      "options": ["A. 53", "B. 68", "C. 83", "D. 98"],
+      "answer": "A",
+      "explanation": "用中国剩余定理或逐个验证：53÷3=17余2，53÷5=10余3，53÷7=7余4，满足所有条件。",
+      "difficulty": 4,
+      "knowledge_points": ["余数问题"]
+    },
+    {
+      "content": "一项工程，甲单独做需要10天，乙单独做需要15天，两人合作需要多少天？",
+      "type": "single_choice",
+      "options": ["A. 5天", "B. 6天", "C. 7天", "D. 8天"],
+      "answer": "B",
+      "explanation": "合作时间 = 1÷(1/10+1/15) = 1÷(1/6) = 6天。",
+      "difficulty": 2,
+      "knowledge_points": ["工程问题"]
+    },
+    {
+      "content": "某班级有50名学生，其中男生比女生多6人，男生有多少人？",
+      "type": "single_choice",
+      "options": ["A. 26人", "B. 28人", "C. 30人", "D. 32人"],
+      "answer": "B",
+      "explanation": "设男生x人，则女生(x-6)人，x+(x-6)=50，解得x=28。",
+      "difficulty": 1,
+      "knowledge_points": ["和差问题"]
+    },
+    {
+      "content": "1, 3, 7, 15, 31, ( )，括号中应填：",
+      "type": "single_choice",
+      "options": ["A. 47", "B. 55", "C. 63", "D. 71"],
+      "answer": "C",
+      "explanation": "规律是前一项×2+1：1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63。",
+      "difficulty": 3,
+      "knowledge_points": ["数字推理"]
+    }
+  ]
+}

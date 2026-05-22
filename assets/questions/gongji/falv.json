@@ -1,0 +1,78 @@
+{
+  "module": "公共基础知识",
+  "chapter": "法律",
+  "questions": [
+    {
+      "content": "我国的根本大法是：",
+      "type": "single_choice",
+      "options": ["A. 刑法", "B. 民法典", "C. 宪法", "D. 行政法"],
+      "answer": "C",
+      "explanation": "宪法是我国的根本大法，具有最高的法律效力，是一切法律的母法。",
+      "difficulty": 1,
+      "knowledge_points": ["宪法"]
+    },
+    {
+      "content": "下列属于我国公民基本义务的是：",
+      "type": "multiple_choice",
+      "options": ["A. 遵守宪法和法律", "B. 维护国家统一", "C. 依法纳税", "D. 服兵役"],
+      "answer": "A,B,C,D",
+      "explanation": "我国公民的基本义务包括遵守宪法法律、维护国家统一和民族团结、依法纳税、服兵役等。",
+      "difficulty": 2,
+      "knowledge_points": ["公民权利与义务"]
+    },
+    {
+      "content": "已满十六周岁的人犯罪，应当负刑事责任。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "根据刑法规定，已满十六周岁的人犯罪，应当负刑事责任。",
+      "difficulty": 2,
+      "knowledge_points": ["刑事责任年龄"]
+    },
+    {
+      "content": "民事法律行为应当具备的条件不包括：",
+      "type": "single_choice",
+      "options": ["A. 行为人具有相应的民事行为能力", "B. 意思表示真实", "C. 经过公证", "D. 不违反法律强制性规定"],
+      "answer": "C",
+      "explanation": "民事法律行为应当具备：行为人具有相应民事行为能力、意思表示真实、不违反法律强制性规定和公序良俗。公证不是必备条件。",
+      "difficulty": 3,
+      "knowledge_points": ["民事法律行为"]
+    },
+    {
+      "content": "行政处罚的种类包括：",
+      "type": "multiple_choice",
+      "options": ["A. 警告", "B. 罚款", "C. 行政拘留", "D. 没收违法所得"],
+      "answer": "A,B,C,D",
+      "explanation": "行政处罚的种类包括警告、罚款、没收违法所得、暂扣或吊销许可证、行政拘留等。",
+      "difficulty": 2,
+      "knowledge_points": ["行政处罚"]
+    },
+    {
+      "content": "我国刑法规定的主刑不包括：",
+      "type": "single_choice",
+      "options": ["A. 管制", "B. 拘役", "C. 罚金", "D. 有期徒刑"],
+      "answer": "C",
+      "explanation": "主刑包括管制、拘役、有期徒刑、无期徒刑、死刑。罚金属于附加刑，不是主刑。",
+      "difficulty": 3,
+      "knowledge_points": ["刑罚种类"]
+    },
+    {
+      "content": "物权包括所有权、用益物权和担保物权。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "根据民法典，物权包括所有权、用益物权和担保物权三大类。",
+      "difficulty": 2,
+      "knowledge_points": ["物权法"]
+    },
+    {
+      "content": "行政复议机关应当自受理申请之日起多少日内作出行政复议决定？",
+      "type": "single_choice",
+      "options": ["A. 30日", "B. 60日", "C. 90日", "D. 120日"],
+      "answer": "B",
+      "explanation": "行政复议机关应当自受理申请之日起60日内作出行政复议决定，法律规定少于60日的除外。",
+      "difficulty": 3,
+      "knowledge_points": ["行政复议"]
+    }
+  ]
+}

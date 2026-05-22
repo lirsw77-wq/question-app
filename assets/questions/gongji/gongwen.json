@@ -1,0 +1,60 @@
+{
+  "module": "公共基础知识",
+  "chapter": "公文",
+  "questions": [
+    {
+      "content": "下列公文中，用于向上级机关请求指示、批准的是：",
+      "type": "single_choice",
+      "options": ["A. 报告", "B. 请示", "C. 通知", "D. 函"],
+      "answer": "B",
+      "explanation": "请示是下级机关向上级机关请求指示、批准时使用的上行文。",
+      "difficulty": 1,
+      "knowledge_points": ["公文种类"]
+    },
+    {
+      "content": "公文的成文日期以什么为准？",
+      "type": "single_choice",
+      "options": ["A. 起草日期", "B. 审核日期", "C. 签发日期", "D. 印发日期"],
+      "answer": "C",
+      "explanation": "公文的成文日期署会议通过或者发文机关负责人签发的日期。",
+      "difficulty": 2,
+      "knowledge_points": ["公文格式"]
+    },
+    {
+      "content": "下列属于公文版头部分的是：",
+      "type": "multiple_choice",
+      "options": ["A. 份号", "B. 密级和保密期限", "C. 紧急程度", "D. 发文机关标志"],
+      "answer": "A,B,C,D",
+      "explanation": "公文版头部分包括份号、密级和保密期限、紧急程度、发文机关标志、发文字号、签发人等。",
+      "difficulty": 3,
+      "knowledge_points": ["公文格式"]
+    },
+    {
+      "content": "请示应当一文一事。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "请示应当一文一事，即一份请示只能请示一个事项，这是公文写作的基本要求。",
+      "difficulty": 2,
+      "knowledge_points": ["请示"]
+    },
+    {
+      "content": "联合行文时，发文机关标志可以并用联合发文机关名称，也可以单独使用：",
+      "type": "single_choice",
+      "options": ["A. 上级机关名称", "B. 主办机关名称", "C. 任一机关名称", "D. 所有机关名称"],
+      "answer": "B",
+      "explanation": "联合行文时，发文机关标志可以并用联合发文机关名称，也可以单独使用主办机关名称。",
+      "difficulty": 3,
+      "knowledge_points": ["联合行文"]
+    },
+    {
+      "content": "下列公文中，属于下行文的是：",
+      "type": "multiple_choice",
+      "options": ["A. 命令", "B. 决定", "C. 通报", "D. 批复"],
+      "answer": "A,B,C,D",
+      "explanation": "下行文是上级机关向下级机关发送的公文，包括命令、决定、通报、批复、通知等。",
+      "difficulty": 2,
+      "knowledge_points": ["行文方向"]
+    }
+  ]
+}

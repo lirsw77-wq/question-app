@@ -1,0 +1,51 @@
+{
+  "module": "申论",
+  "chapter": "大作文",
+  "questions": [
+    {
+      "content": "申论大作文的基本结构通常采用：",
+      "type": "single_choice",
+      "options": ["A. 总分总结构", "B. 并列结构", "C. 递进结构", "D. 对比结构"],
+      "answer": "A",
+      "explanation": "申论大作文通常采用\"总—分—总\"结构：开头提出论点，中间分论点论证，结尾总结升华。",
+      "difficulty": 2,
+      "knowledge_points": ["文章结构"]
+    },
+    {
+      "content": "申论大作文的开头部分应该做到：",
+      "type": "multiple_choice",
+      "options": ["A. 引出话题", "B. 提出总论点", "C. 简洁明了", "D. 长篇铺垫"],
+      "answer": "A,B,C",
+      "explanation": "开头应简洁引出话题、明确提出总论点，不宜长篇铺垫，一般控制在150字左右。",
+      "difficulty": 2,
+      "knowledge_points": ["开头写法"]
+    },
+    {
+      "content": "论证分论点时，常用的论证方法包括：",
+      "type": "multiple_choice",
+      "options": ["A. 举例论证", "B. 道理论证", "C. 对比论证", "D. 比喻论证"],
+      "answer": "A,B,C,D",
+      "explanation": "常用的论证方法包括举例论证、道理论证、对比论证、比喻论证、引用论证等。",
+      "difficulty": 2,
+      "knowledge_points": ["论证方法"]
+    },
+    {
+      "content": "以\"基层治理\"为主题，写一篇大作文的分论点框架。",
+      "type": "essay",
+      "options": [],
+      "answer": "总论点：提升基层治理效能，夯实国家治理根基。\n分论点一：党建引领是基层治理的核心，发挥党组织战斗堡垒作用。\n分论点二：群众参与是基层治理的基础，激发居民自治活力。\n分论点三：科技赋能是基层治理的支撑，推进治理手段智能化。\n分论点四：制度保障是基层治理的关键，完善治理体制机制。\n结尾：总结升华，强调基层治理现代化的重要性。",
+      "explanation": "分论点应紧扣总论点，角度不同但逻辑一致，形成并列或递进关系。",
+      "difficulty": 4,
+      "knowledge_points": ["分论点拟定"]
+    },
+    {
+      "content": "申论大作文的结尾应该做到：",
+      "type": "single_choice",
+      "options": ["A. 简单重复开头", "B. 提出新的论点", "C. 总结全文，升华主题", "D. 详细论述对策"],
+      "answer": "C",
+      "explanation": "结尾应总结全文要点，适当升华主题，呼应开头和标题，给阅卷者留下深刻印象。",
+      "difficulty": 2,
+      "knowledge_points": ["结尾写法"]
+    }
+  ]
+}

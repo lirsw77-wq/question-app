@@ -1,0 +1,60 @@
+{
+  "module": "职业能力测验",
+  "chapter": "判断推理",
+  "questions": [
+    {
+      "content": "所有的哺乳动物都是胎生的，狗是哺乳动物，所以狗是胎生的。这个推理属于：",
+      "type": "single_choice",
+      "options": ["A. 归纳推理", "B. 演绎推理", "C. 类比推理", "D. 溯因推理"],
+      "answer": "B",
+      "explanation": "从一般性前提出发推出特殊结论的推理是演绎推理，即三段论。",
+      "difficulty": 2,
+      "knowledge_points": ["逻辑推理"]
+    },
+    {
+      "content": "如果下雨，地面就会湿。地面没有湿。因此：",
+      "type": "single_choice",
+      "options": ["A. 下雨了", "B. 没有下雨", "C. 地面是干的", "D. 无法确定"],
+      "answer": "B",
+      "explanation": "这是假言推理的否定后件式：如果P则Q，非Q，所以非P。地面没湿说明没有下雨。",
+      "difficulty": 3,
+      "knowledge_points": ["假言推理"]
+    },
+    {
+      "content": "从所给的四个选项中，选择最合适的一个填入问号处：\n△ ○ □ △ ○ □ △ ?",
+      "type": "single_choice",
+      "options": ["A. △", "B. ○", "C. □", "D. ◇"],
+      "answer": "B",
+      "explanation": "图形按△○□的顺序循环，第7个应该是○。",
+      "difficulty": 1,
+      "knowledge_points": ["图形推理"]
+    },
+    {
+      "content": "医生：医院：治病\n与这组词关系最相似的是：",
+      "type": "single_choice",
+      "options": ["A. 教师：学校：育人", "B. 农民：土地：收获", "C. 工人：工厂：产品", "D. 司机：公路：行驶"],
+      "answer": "A",
+      "explanation": "医生在医院治病，教师在学校育人，都是职业、场所、核心活动的对应关系。",
+      "difficulty": 2,
+      "knowledge_points": ["类比推理"]
+    },
+    {
+      "content": "甲、乙、丙三人中只有一人做了好事。甲说：\"是乙做的\"；乙说：\"不是我做的\"；丙说：\"不是我做的\"。如果只有一人说了真话，那么做好事的是：",
+      "type": "single_choice",
+      "options": ["A. 甲", "B. 乙", "C. 丙", "D. 无法确定"],
+      "answer": "C",
+      "explanation": "甲和乙的话矛盾，必有一真一假。只有一人说真话，所以丙说的是假话，即好事是丙做的。",
+      "difficulty": 4,
+      "knowledge_points": ["真假推理"]
+    },
+    {
+      "content": "定义判断：沉没成本是指已经付出且不可收回的成本。下列属于沉没成本的是：",
+      "type": "single_choice",
+      "options": ["A. 购买电影票后发现电影不好看", "B. 预订了酒店但还未付款", "C. 计划明天购买的机票", "D. 正在分期付款的手机"],
+      "answer": "A",
+      "explanation": "电影票已经购买且无法退款，属于已经付出且不可收回的成本。B未付款，C还未购买，D还在付款中。",
+      "difficulty": 3,
+      "knowledge_points": ["定义判断"]
+    }
+  ]
+}

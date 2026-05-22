@@ -1,0 +1,60 @@
+{
+  "module": "公共基础知识",
+  "chapter": "管理",
+  "questions": [
+    {
+      "content": "管理的基本职能包括：",
+      "type": "multiple_choice",
+      "options": ["A. 计划", "B. 组织", "C. 领导", "D. 控制"],
+      "answer": "A,B,C,D",
+      "explanation": "管理的基本职能包括计划、组织、领导、控制四大职能。",
+      "difficulty": 2,
+      "knowledge_points": ["管理职能"]
+    },
+    {
+      "content": "行政管理的核心是：",
+      "type": "single_choice",
+      "options": ["A. 行政决策", "B. 行政执行", "C. 行政监督", "D. 行政协调"],
+      "answer": "A",
+      "explanation": "行政决策是行政管理的核心，贯穿于行政管理的全过程。",
+      "difficulty": 3,
+      "knowledge_points": ["行政决策"]
+    },
+    {
+      "content": "马斯洛需求层次理论中，最高层次的需求是：",
+      "type": "single_choice",
+      "options": ["A. 安全需求", "B. 社交需求", "C. 尊重需求", "D. 自我实现需求"],
+      "answer": "D",
+      "explanation": "马斯洛需求层次从低到高依次为：生理需求、安全需求、社交需求、尊重需求、自我实现需求。",
+      "difficulty": 2,
+      "knowledge_points": ["激励理论"]
+    },
+    {
+      "content": "我国公务员制度坚持的原则是：",
+      "type": "single_choice",
+      "options": ["A. 政治中立", "B. 党管干部", "C. 三权分立", "D. 文官制度"],
+      "answer": "B",
+      "explanation": "我国公务员制度坚持党管干部原则，这是中国特色公务员制度的核心。",
+      "difficulty": 2,
+      "knowledge_points": ["公务员制度"]
+    },
+    {
+      "content": "公共危机管理的首要原则是：",
+      "type": "single_choice",
+      "options": ["A. 效率性原则", "B. 时间性原则", "C. 协同性原则", "D. 科学性原则"],
+      "answer": "B",
+      "explanation": "公共危机管理的首要原则是时间性原则，即快速反应、及时处置。",
+      "difficulty": 3,
+      "knowledge_points": ["危机管理"]
+    },
+    {
+      "content": "行政组织的基本要素包括：",
+      "type": "multiple_choice",
+      "options": ["A. 组织目标", "B. 机构设置", "C. 人员配置", "D. 权责体系"],
+      "answer": "A,B,C,D",
+      "explanation": "行政组织的基本要素包括组织目标、机构设置、人员配置、权责体系、法规制度等。",
+      "difficulty": 3,
+      "knowledge_points": ["行政组织"]
+    }
+  ]
+}

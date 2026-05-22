@@ -1,0 +1,60 @@
+{
+  "module": "公共基础知识",
+  "chapter": "科技",
+  "questions": [
+    {
+      "content": "我国第一颗人造地球卫星是：",
+      "type": "single_choice",
+      "options": ["A. 神舟一号", "B. 东方红一号", "C. 嫦娥一号", "D. 天宫一号"],
+      "answer": "B",
+      "explanation": "1970年4月24日，我国成功发射第一颗人造地球卫星\"东方红一号\"。",
+      "difficulty": 2,
+      "knowledge_points": ["航天科技"]
+    },
+    {
+      "content": "5G技术的主要特点包括：",
+      "type": "multiple_choice",
+      "options": ["A. 高速率", "B. 低延迟", "C. 大连接", "D. 广覆盖"],
+      "answer": "A,B,C",
+      "explanation": "5G技术的主要特点是高速率、低延迟、大连接。广覆盖不是5G的核心特点。",
+      "difficulty": 3,
+      "knowledge_points": ["信息技术"]
+    },
+    {
+      "content": "光年是天文学中常用的长度单位。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "光年是光在真空中一年内走过的距离，约9.46万亿千米，是天文学中的长度单位。",
+      "difficulty": 1,
+      "knowledge_points": ["物理常识"]
+    },
+    {
+      "content": "下列属于可再生能源的是：",
+      "type": "multiple_choice",
+      "options": ["A. 太阳能", "B. 风能", "C. 煤炭", "D. 水能"],
+      "answer": "A,B,D",
+      "explanation": "太阳能、风能、水能属于可再生能源，煤炭属于不可再生能源。",
+      "difficulty": 1,
+      "knowledge_points": ["能源"]
+    },
+    {
+      "content": "我国自主研发的全球卫星导航系统是：",
+      "type": "single_choice",
+      "options": ["A. GPS", "B. 北斗系统", "C. 伽利略系统", "D. 格洛纳斯系统"],
+      "answer": "B",
+      "explanation": "北斗卫星导航系统是我国自主研发的全球卫星导航系统。GPS是美国的，伽利略是欧洲的，格洛纳斯是俄罗斯的。",
+      "difficulty": 2,
+      "knowledge_points": ["航天科技"]
+    },
+    {
+      "content": "量子计算机利用量子力学中的什么特性进行计算？",
+      "type": "single_choice",
+      "options": ["A. 量子纠缠和量子叠加", "B. 光电效应", "C. 核裂变", "D. 电磁感应"],
+      "answer": "A",
+      "explanation": "量子计算机利用量子纠缠和量子叠加等量子力学特性进行计算，具有超强的并行计算能力。",
+      "difficulty": 4,
+      "knowledge_points": ["前沿科技"]
+    }
+  ]
+}

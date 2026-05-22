@@ -1,0 +1,60 @@
+{
+  "module": "公共基础知识",
+  "chapter": "时政",
+  "questions": [
+    {
+      "content": "党的二十大报告指出，中国式现代化的本质要求包括：",
+      "type": "multiple_choice",
+      "options": ["A. 坚持中国共产党领导", "B. 坚持中国特色社会主义", "C. 实现高质量发展", "D. 全体人民共同富裕"],
+      "answer": "A,B,C,D",
+      "explanation": "中国式现代化的本质要求包括坚持中国共产党领导、坚持中国特色社会主义、实现高质量发展、发展全过程人民民主等。",
+      "difficulty": 3,
+      "knowledge_points": ["党的二十大"]
+    },
+    {
+      "content": "\"一带一路\"是指：",
+      "type": "single_choice",
+      "options": ["A. 丝绸之路经济带和21世纪海上丝绸之路", "B. 丝绸之路和茶马古道", "C. 海上丝绸之路和陆上丝绸之路", "D. 长江经济带和丝绸之路经济带"],
+      "answer": "A",
+      "explanation": "\"一带一路\"是\"丝绸之路经济带\"和\"21世纪海上丝绸之路\"的简称。",
+      "difficulty": 2,
+      "knowledge_points": ["一带一路"]
+    },
+    {
+      "content": "全面建设社会主义现代化国家的首要任务是：",
+      "type": "single_choice",
+      "options": ["A. 高质量发展", "B. 科技创新", "C. 乡村振兴", "D. 共同富裕"],
+      "answer": "A",
+      "explanation": "党的二十大报告指出，高质量发展是全面建设社会主义现代化国家的首要任务。",
+      "difficulty": 3,
+      "knowledge_points": ["党的二十大"]
+    },
+    {
+      "content": "新质生产力的核心要素是：",
+      "type": "single_choice",
+      "options": ["A. 劳动力", "B. 资本", "C. 创新", "D. 土地"],
+      "answer": "C",
+      "explanation": "新质生产力以创新为核心要素，以科技创新为主导驱动力。",
+      "difficulty": 3,
+      "knowledge_points": ["新质生产力"]
+    },
+    {
+      "content": "乡村振兴战略的总要求包括产业兴旺、生态宜居、乡风文明、治理有效、生活富裕。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "乡村振兴战略的总要求是产业兴旺、生态宜居、乡风文明、治理有效、生活富裕。",
+      "difficulty": 2,
+      "knowledge_points": ["乡村振兴"]
+    },
+    {
+      "content": "\"双碳\"目标是指：",
+      "type": "single_choice",
+      "options": ["A. 碳达峰、碳中和", "B. 碳减排、碳交易", "C. 碳捕捉、碳封存", "D. 碳循环、碳利用"],
+      "answer": "A",
+      "explanation": "\"双碳\"目标是指2030年前实现碳达峰、2060年前实现碳中和。",
+      "difficulty": 2,
+      "knowledge_points": ["双碳目标"]
+    }
+  ]
+}

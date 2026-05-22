@@ -1,0 +1,60 @@
+{
+  "module": "公共基础知识",
+  "chapter": "人文",
+  "questions": [
+    {
+      "content": "中国古代四大发明不包括：",
+      "type": "single_choice",
+      "options": ["A. 造纸术", "B. 印刷术", "C. 指南针", "D. 算盘"],
+      "answer": "D",
+      "explanation": "中国古代四大发明是造纸术、印刷术、火药、指南针。算盘不属于四大发明。",
+      "difficulty": 1,
+      "knowledge_points": ["中国古代科技"]
+    },
+    {
+      "content": "\"四书五经\"中的\"四书\"是指：",
+      "type": "single_choice",
+      "options": ["A. 《大学》《中庸》《论语》《孟子》", "B. 《诗经》《尚书》《礼记》《周易》", "C. 《春秋》《左传》《公羊传》《谷梁传》", "D. 《史记》《汉书》《后汉书》《三国志》"],
+      "answer": "A",
+      "explanation": "四书指《大学》《中庸》《论语》《孟子》，五经指《诗》《书》《礼》《易》《春秋》。",
+      "difficulty": 2,
+      "knowledge_points": ["传统文化"]
+    },
+    {
+      "content": "我国第一部纪传体通史是：",
+      "type": "single_choice",
+      "options": ["A. 《资治通鉴》", "B. 《史记》", "C. 《汉书》", "D. 《春秋》"],
+      "answer": "B",
+      "explanation": "《史记》是西汉司马迁所著，是我国第一部纪传体通史。",
+      "difficulty": 2,
+      "knowledge_points": ["文学常识"]
+    },
+    {
+      "content": "下列属于唐宋八大家的是：",
+      "type": "multiple_choice",
+      "options": ["A. 韩愈", "B. 柳宗元", "C. 苏轼", "D. 李白"],
+      "answer": "A,B,C",
+      "explanation": "唐宋八大家是韩愈、柳宗元、欧阳修、苏洵、苏轼、苏辙、王安石、曾巩。李白不在其中。",
+      "difficulty": 3,
+      "knowledge_points": ["文学常识"]
+    },
+    {
+      "content": "京剧的四大行当是生、旦、净、丑。",
+      "type": "true_false",
+      "options": ["A. 正确", "B. 错误"],
+      "answer": "A",
+      "explanation": "京剧的四大行当是生（男性角色）、旦（女性角色）、净（花脸）、丑（喜剧角色）。",
+      "difficulty": 2,
+      "knowledge_points": ["传统戏曲"]
+    },
+    {
+      "content": "黄河是我国第二长河，发源于：",
+      "type": "single_choice",
+      "options": ["A. 唐古拉山", "B. 巴颜喀拉山", "C. 昆仑山", "D. 天山"],
+      "answer": "B",
+      "explanation": "黄河发源于青藏高原巴颜喀拉山北麓，全长约5464公里，是我国第二长河。",
+      "difficulty": 2,
+      "knowledge_points": ["地理常识"]
+    }
+  ]
+}
