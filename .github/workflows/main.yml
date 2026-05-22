@@ -1,34 +1,49 @@
-name: Build Android APK
+name: Build and Release APK
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main # 如果你的主分支叫 master，请改成 master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: set up JDK 17
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: gradle
+      # 2. 配置 Java 环境
+      - name: Set up JDK 17
+        uses: actions/abstractj/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      # 3. 配置 Flutter 环境
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x' # 会自动匹配最新的 Flutter 3 版本
+          channel: 'stable'
 
-    - name: Build with Gradle
-      run: ./gradlew assembleRelease
+      # 4. 获取 Flutter 依赖（这一步在最外层根目录执行）
+      - name: Install dependencies
+        run: flutter pub get
 
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: android-apk-release
-        path: app/build/outputs/apk/release/*.apk
+      # 5. 给 gradlew 赋予执行权限（👈 注意：这里已经加了进入 android 文件夹的路标）
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        working-directory: ./android
+
+      # 6. 打包 APK（👈 同样加了路标，并且用 Flutter 官方命令打包，更不容易出错）
+      - name: Build APK
+        run: flutter build apk --release
+
+      # 7. 把打包好的 APK 发送到 GitHub Artifacts 供你下载
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
