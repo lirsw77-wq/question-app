@@ -1,5 +1,25 @@
-plugins {
-    id("com.android.application") version "8.1.1" apply false
-    id("com.android.library") version "8.1.1" apply false
-    id("org.jetbrains.kotlin.android") version "1.8.10" apply false
+buildscript {
+    ext["kotlin_version"] = "1.9.20"
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // 锁死兼容的 AGP 版本，避开 9.0+ 的坑
+        classpath("com.android.tools.build:gradle:8.7.3")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${ext["kotlin_version"]}")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
 }
