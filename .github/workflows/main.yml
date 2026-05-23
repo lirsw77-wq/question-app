@@ -3,8 +3,6 @@ name: Build Android APK
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
@@ -28,6 +26,10 @@ jobs:
         run: flutter pub get
 
       - name: Build APK with Flutter
+        # 通过环境变量强制设置构建参数，避免修改配置文件引发的各种冲突
+        env:
+          ORG_GRADLE_PROJECT_android_newDsl: "false"
+          ORG_GRADLE_PROJECT_android_builtInKotlin: "false"
         run: flutter build apk --release
 
       - name: Upload APK Artifact
