@@ -8,11 +8,9 @@ pluginManagement {
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "8.5.0" apply false
-    id("com.android.library") version "8.5.0" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    id("com.android.application") version "8.1.1" apply false
+    id("com.android.library") version "8.1.1" apply false
+    id("org.jetbrains.kotlin.android") version "1.8.10" apply false
 }
-
-includeBuild("${settingsDir.parent}/packages/flutter_tools/gradle")
 
 include(":app")
