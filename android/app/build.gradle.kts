@@ -1,38 +1,24 @@
-plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("dev.flutter.flutter-gradle-plugin")
-}
+buildscript {
+    ext["kotlin_version"] = "1.9.20"
 
-android {
-    namespace = "com.example.question_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    defaultConfig {
-        applicationId = "com.example.question_app"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
-    }
-
-    buildTypes {
-        release {
-            signingConfig = signingConfigs.getByName("debug")
-        }
-    }
-
-    flutter {
-        source = "../.."
+    repositories {
+        google()
+        mavenCentral()
     }
 
     dependencies {
-        // 自动由Flutter管理，无需手动添加
+        classpath("com.android.tools.build:gradle:8.7.3")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${ext["kotlin_version"]}")
     }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
 }
