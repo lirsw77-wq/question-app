@@ -21,6 +21,12 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
+          cache: true
+
+      - name: Configure Flutter SDK path
+        run: |
+          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
+        shell: bash
 
       - name: Install dependencies
         run: flutter pub get
