@@ -28,9 +28,6 @@ jobs:
         run: flutter pub get
 
       - name: Build APK with Flutter
-        env:
-          ORG_GRADLE_PROJECT_android_newDsl: "false"
-          ORG_GRADLE_PROJECT_android_builtInKotlin: "false"
         run: flutter build apk --release
 
       - name: Upload APK Artifact
