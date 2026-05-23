@@ -13,5 +13,6 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.9.22" apply false
 }
 
-rootProject.name = "android"
+includeBuild("${settingsDir.parent}/packages/flutter_tools/gradle")
+
 include(":app")
